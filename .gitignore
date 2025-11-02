@@ -1,1 +1,19 @@
+# --- Ignore Python virtual environments ---
+venv/
 embeddings_api/venv/
+
+# --- Ignore Node.js dependencies ---
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# --- Ignore environment files ---
+.env
+*.env
+
+# --- Ignore temporary and system files ---
+__pycache__/
+*.log
+.DS_Store
+Thumbs.db
+
