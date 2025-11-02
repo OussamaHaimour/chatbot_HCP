@@ -636,7 +636,7 @@ app.post("/ask", authenticateToken, async (req, res) => {
       }
       
       if (lowerQuestion.match(/^(hi|hello|hey|greetings?)/)) {
-        casualResponse = `Hello ${userName}! I'm your HCP assistant. I can help you with questions about your uploaded documents or have a general conversation. How can I assist you today?`;
+        casualResponse = `Hello ${userName}! I'm your  assistant. I can help you with questions about your uploaded documents or have a general conversation. How can I assist you today?`;
       } else if (lowerQuestion.match(/^how\s+are\s+you/)) {
         casualResponse = "I'm doing well, thank you for asking! I'm here and ready to help you with any questions you might have about your documents or anything else. What can I help you with?";
       } else if (lowerQuestion.match(/^what'?s\s+up/)) {
