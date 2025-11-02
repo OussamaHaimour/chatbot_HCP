@@ -413,7 +413,7 @@ function App() {
                 </button>
                 <div className="md:ml-0">
   <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-teal-700 tracking-wide">
-    HCP Chatbot
+    RAG Chatbot
   </h1>
   <p className="text-lg font-medium text-neutral-600 mt-1 animate-pulse">
     Hello, <span className="text-teal-600 font-bold">{user?.username || 'User'}</span>! 👋
